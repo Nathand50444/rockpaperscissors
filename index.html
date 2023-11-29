@@ -5,16 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <title>Rock, Paper, Scissors</title>
 </head>
 <body>
+<div id="title">The Rock, Paper, Scissors Game</div>
+<div id="header">
     <div id="scoreboard">Score: Player 0 - Computer 0</div>
-    <div id="result">Choose Rock, Paper, or Scissors</div>
-    <div id="playerPick">
-        <button id="rock">Rock!</button>
-        <button id="paper">Paper!</button>
-        <button id="scissors">Scissors!</button>
-    </div>
-    <div><button id="reset">Reset</button></div>
+    <div id="result">Choose Rock, Paper, or Scissors!</div>
+    <div id="playerPick"></div>
+</div>
+<div id="pick">
+    <button id="rock"><img src="imgs/rock-575603_1280.png" height="200" width="auto"></button>
+    <button id="paper"><img src="imgs/certificate-154169_1280.png" height="200" width="auto"></button>
+    <button id="scissors"><img id="scissorsImg" src="imgs/scissors-33524_1280.png" height="200" width="auto"></button>
+</div>
+<div id="facts">
+    <div id="factTitle">Fact Board</div>
+    <div id="factStatement"> </div>
+</div>
+<div>
+    <button id="reset">Reset</button>
+</div>
 </body>
 </html>
