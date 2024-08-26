@@ -1,0 +1,31 @@
+## Rock Paper Scissors Game
+
+# Overview
+This is a simple Rock Paper Scissors game built using HTML, CSS, and JavaScript. The game features a clean and fun user interface, game logic, facts board and a reset feature.
+
+# Features
+
+* Game Interface: A simple and clean interface with a title, scoreboard, result display, and buttons for player selection.
+* Player Selection: Players can select their choice (Rock, Paper, or Scissors) using buttons with images.
+* Game Logic: The game logic is implemented in the script.js file, which handles the player's selection and determines the winner.
+* Reset Feature: The game has a reset button that allows players to start a new game.
+* Fact Board: The game includes a fact board that displays interesting facts about Rock Paper Scissors.
+
+# Code Structure
+
+* HTML Structure: The HTML structure is well-organised, with meaningful IDs for the elements, making it easy to identify and access them in the JavaScript code.
+* CSS Integration: An external stylesheet (style.css) is linked to the HTML file, separating presentation from content.
+* JavaScript Event Handling: JavaScript event listeners are used to handle button clicks, responding to user interactions.
+* Code Organisation: The JavaScript code is organised into functions or modules, making it easier to maintain and extend.
+
+# Strengths
+
+* Well-organized HTML structure
+* Good use of CSS for presentation
+* Effective JavaScript event handling and game logic
+* Organized code structure
+
+# Getting Started
+
+1. Open the index.html file in a web browser
+2. Play the game!
